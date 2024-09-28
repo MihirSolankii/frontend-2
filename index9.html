@@ -1,0 +1,1671 @@
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .fourty-two{
+          font-size: 14px;
+          font-weight: 700;
+          z-index: 10;
+        }
+        @media (max-width: 991px) {
+          .fourty-two{
+            margin-right: 5px;
+          }
+        }
+        .two-nine-seven {
+          font-size: 14px;
+          font-weight: 700;
+          align-self: center;
+          z-index: 10;
+        }
+        .seven-nine-eight{
+          font-size: 14px;
+          font-weight: 700;
+          align-self: center;
+          z-index: 10;
+        }
+        .news-light {
+          background-color: rgba(249, 249, 250, 1);
+          display: flex;
+          flex-direction: column;
+          overflow: hidden;
+          padding: 20px 44px 91px;
+        }
+        @media (max-width: 991px) {
+          .news-light {
+            padding: 0 20px;
+          }
+        }
+        .div {
+          border-radius: 8px;
+          background-color: rgba(255, 255, 255, 1);
+          display: flex;
+          width: 100%;
+          flex-direction: column;
+          overflow: hidden;
+          justify-content: center;
+          padding: 10px 21px;
+        }
+        @media (max-width: 991px) {
+          .div {
+            max-width: 100%;
+            padding: 0 20px;
+          }
+        }
+        .div-2 {
+          display: flex;
+          width: 100%;
+          align-items: center;
+          gap: 40px 120px;
+          justify-content: start;
+          flex-wrap: wrap;
+        }
+        @media (max-width: 991px) {
+          .div-2 {
+            max-width: 100%;
+          }
+        }
+        .div-3 {
+          align-self: stretch;
+          display: flex;
+          align-items: center;
+          gap: 82px;
+          justify-content: start;
+          margin: auto 43px;
+        }
+        .div-4 {
+          border-radius: 4px;
+          background-color: rgba(85, 116, 244, 1);
+          align-self: stretch;
+          display: flex;
+          min-height: 36px;
+          align-items: center;
+          gap: 10px;
+          justify-content: center;
+          width: 36px;
+          height: 36px;
+          margin: auto 0;
+          padding: 0 6px;
+        }
+        .img {
+          aspect-ratio: 1;
+          object-fit: contain;
+          object-position: center;
+          width: 24px;
+          align-self: stretch;
+          margin: auto 0;
+        }
+        .we-share {
+          color: rgba(111, 117, 139, 1);
+          align-self: stretch;
+          margin: auto 0;
+          font: 400 24px/1 Pacifico, sans-serif;
+        }
+        .div-5 {
+          border-radius: 8px;
+          background-color: rgba(244, 244, 244, 1);
+          align-self: stretch;
+          display: flex;
+          min-width: 240px;
+          flex-direction: column;
+          overflow: hidden;
+          color: rgba(0, 0, 0, 1);
+          white-space: nowrap;
+          justify-content: center;
+          flex-grow: 1;
+          width: 555px;
+          margin: auto 0;
+          padding: 2px 14px;
+          font: 400 16px/32px Poppins, sans-serif;
+        }
+        @media (max-width: 991px) {
+          .div-5 {
+            max-width: 100%;
+            white-space: initial;
+          }
+        }
+        .div-6 {
+          display: flex;
+          width: 100%;
+          align-items: center;
+          gap: 17px;
+          justify-content: start;
+          flex-wrap: wrap;
+        }
+        @media (max-width: 991px) {
+          .div-6 {
+            max-width: 100%;
+            white-space: initial;
+          }
+        }
+        .img-2 {
+          aspect-ratio: 1;
+          object-fit: contain;
+          object-position: center;
+          width: 24px;
+          border-radius: 4px;
+          align-self: stretch;
+          margin: auto 0;
+        }
+        .search {
+          align-self: stretch;
+          margin: auto 0;
+        }
+        .div-7 {
+          align-self: stretch;
+          display: flex;
+          min-width: 240px;
+          align-items: center;
+          gap: 38px;
+          color: rgba(0, 0, 0, 1);
+          white-space: nowrap;
+          justify-content: start;
+          margin: auto 0;
+          font: 400 16px/32px Segoe UI, sans-serif;
+        }
+        @media (max-width: 991px) {
+          .div-7 {
+            white-space: initial;
+          }
+        }
+        .div-8 {
+          align-self: stretch;
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          justify-content: start;
+          margin: auto 0;
+        }
+        @media (max-width: 991px) {
+          .div-8 {
+            white-space: initial;
+          }
+        }
+        .img-3 {
+          aspect-ratio: 1;
+          object-fit: contain;
+          object-position: center;
+          width: 32px;
+          border-radius: 50%;
+          align-self: stretch;
+          margin: auto 0;
+        }
+        .lisa-stephen {
+          align-self: stretch;
+          margin: auto 0;
+        }
+        .div-9 {
+          margin-top: 15px;
+        }
+        @media (max-width: 991px) {
+          .div-9 {
+            max-width: 100%;
+          }
+        }
+        .div-10 {
+          gap: 20px;
+          display: flex;
+        }
+        @media (max-width: 991px) {
+          .div-10 {
+            flex-direction: column;
+            align-items: stretch;
+            gap: 0px;
+          }
+        }
+        .column {
+          display: flex;
+          flex-direction: column;
+          line-height: normal;
+          width: 19%;
+          margin-left: 0px;
+        }
+        @media (max-width: 991px) {
+          .column {
+            width: 100%;
+          }
+        }
+        .div-11 {
+          display: flex;
+          margin-top: 5px;
+          width: 100%;
+          flex-direction: column;
+          font-family: Poppins, sans-serif;
+        }
+        @media (max-width: 991px) {
+          .div-11 {
+            margin-top: 30px;
+          }
+        }
+        .div-12 {
+          border-radius: 8px;
+          background-color: rgba(255, 255, 255, 1);
+          display: flex;
+          flex-direction: column;
+          overflow: hidden;
+          font-family: Segoe UI, sans-serif;
+          color: rgba(0, 0, 0, 1);
+          white-space: nowrap;
+          justify-content: center;
+          padding: 13px 14px;
+        }
+        @media (max-width: 991px) {
+          .div-12 {
+            white-space: initial;
+          }
+        }
+        .div-13 {
+          border-radius: 6px;
+          background-color: rgba(249, 249, 250, 1);
+          display: flex;
+          width: 100%;
+          flex-direction: column;
+          overflow: hidden;
+          justify-content: center;
+          padding: 11px 22px;
+        }
+        @media (max-width: 991px) {
+          .div-13 {
+            white-space: initial;
+            padding: 0 20px;
+          }
+        }
+        .div-14 {
+          display: flex;
+          width: 100%;
+          flex-direction: column;
+          justify-content: start;
+        }
+        @media (max-width: 991px) {
+          .div-14 {
+            white-space: initial;
+          }
+        }
+        .div-15 {
+          align-self: center;
+          display: flex;
+          align-items: center;
+          gap: 5px;
+          justify-content: start;
+        }
+        @media (max-width: 991px) {
+          .div-15 {
+            white-space: initial;
+          }
+        }
+        .img-4 {
+          aspect-ratio: 1;
+          object-fit: contain;
+          object-position: center;
+          width: 32px;
+          align-self: stretch;
+          margin: auto 0;
+        }
+        .div-16 {
+          align-self: stretch;
+          display: flex;
+          flex-direction: column;
+          justify-content: start;
+          width: 80px;
+          margin: auto 0;
+        }
+        @media (max-width: 991px) {
+          .div-16 {
+            white-space: initial;
+          }
+        }
+        .lisa-stephen-2 {
+          font-size: 13px;
+          font-weight: 700;
+        }
+        .lisastephen {
+          font-size: 12px;
+          font-weight: 350;
+        }
+        .div-17 {
+          display: flex;
+          margin-top: 19px;
+          width: 100%;
+          align-items: center;
+          gap: 20px;
+          line-height: 27px;
+          justify-content: start;
+        }
+        @media (max-width: 991px) {
+          .div-17 {
+            white-space: initial;
+          }
+        }
+        .div-18 {
+          border-radius: 0px 0px 0px 0px;
+          align-self: stretch;
+          display: flex;
+          flex-direction: column;
+          width: 49px;
+          margin: auto 0;
+        }
+        @media (max-width: 991px) {
+          .div-18 {
+            white-space: initial;
+          }
+        }
+        .followers {
+          font-size: 12px;
+          font-weight: 350;
+        }
+        .div-19 {
+          border-radius: 0px 0px 0px 0px;
+          align-self: stretch;
+          display: flex;
+          flex-direction: column;
+          width: 50px;
+          margin: auto 0;
+        }
+        @media (max-width: 991px) {
+          .div-19 {
+            white-space: initial;
+          }
+        }
+        .following {
+          font-size: 12px;
+          font-weight: 350;
+        }
+        .div-20 {
+          border-radius: 0px 0px 0px 0px;
+          align-self: stretch;
+          display: flex;
+          flex-direction: column;
+          width: 27px;
+          margin: auto 0;
+        }
+        @media (max-width: 991px) {
+          .div-20 {
+            white-space: initial;
+          }
+        }
+        .posts {
+          font-size: 12px;
+          font-weight: 350;
+        }
+        .div-21 {
+          border-radius: 8px;
+          background-color: rgba(255, 255, 255, 1);
+          display: flex;
+          margin-top: 26px;
+          align-items: center;
+          gap: 10px;
+          overflow: hidden;
+          font-size: 14px;
+          color: #7f7f7f;
+          font-weight: 600;
+          white-space: nowrap;
+          justify-content: start;
+          padding: 15px 14px;
+        }
+        @media (max-width: 991px) {
+          .div-21 {
+            white-space: initial;
+          }
+        }
+        .div-22 {
+          align-self: stretch;
+          display: flex;
+          width: 217px;
+          flex-direction: column;
+          justify-content: start;
+          margin: auto 0;
+        }
+        @media (max-width: 991px) {
+          .div-22 {
+            white-space: initial;
+          }
+        }
+        .div-23 {
+          border-radius: 6px;
+          display: flex;
+          width: 100%;
+          align-items: end;
+          gap: 12px;
+          justify-content: start;
+          padding: 10px;
+        }
+        @media (max-width: 991px) {
+          .div-23 {
+            white-space: initial;
+          }
+        }
+        .img-5 {
+          aspect-ratio: 1;
+          object-fit: contain;
+          object-position: center;
+          width: 24px;
+        }
+        .div-24 {
+          border-radius: 6px;
+          display: flex;
+          margin-top: 8px;
+          width: 100%;
+          align-items: end;
+          gap: 12px;
+          justify-content: start;
+          padding: 10px;
+        }
+        @media (max-width: 991px) {
+          .div-24 {
+            white-space: initial;
+          }
+        }
+        .img-6 {
+          aspect-ratio: 1;
+          object-fit: contain;
+          object-position: center;
+          width: 24px;
+        }
+        .div-25 {
+          border-radius: 6px;
+          display: flex;
+          margin-top: 8px;
+          width: 100%;
+          align-items: end;
+          gap: 12px;
+          justify-content: start;
+          padding: 10px;
+        }
+        @media (max-width: 991px) {
+          .div-25 {
+            white-space: initial;
+          }
+        }
+        .img-7 {
+          aspect-ratio: 1;
+          object-fit: contain;
+          object-position: center;
+          width: 24px;
+        }
+        .div-26 {
+          border-radius: 6px;
+          display: flex;
+          margin-top: 8px;
+          width: 100%;
+          align-items: end;
+          gap: 12px;
+          justify-content: start;
+          padding: 10px;
+        }
+        @media (max-width: 991px) {
+          .div-26 {
+            white-space: initial;
+          }
+        }
+        .img-8 {
+          aspect-ratio: 1;
+          object-fit: contain;
+          object-position: center;
+          width: 24px;
+        }
+        .div-27 {
+          border-radius: 6px;
+          display: flex;
+          margin-top: 8px;
+          width: 100%;
+          align-items: end;
+          gap: 12px;
+          justify-content: start;
+          padding: 10px;
+        }
+        @media (max-width: 991px) {
+          .div-27 {
+            white-space: initial;
+          }
+        }
+        .img-9 {
+          aspect-ratio: 1;
+          object-fit: contain;
+          object-position: center;
+          width: 24px;
+        }
+        .div-28 {
+          border-radius: 6px;
+          background-color: rgba(85, 116, 244, 1);
+          display: flex;
+          margin-top: 8px;
+          width: 100%;
+          align-items: end;
+          gap: 12px;
+          color: #fff;
+          justify-content: start;
+          padding: 10px;
+        }
+        @media (max-width: 991px) {
+          .div-28 {
+            white-space: initial;
+          }
+        }
+        .img-10 {
+          aspect-ratio: 1;
+          object-fit: contain;
+          object-position: center;
+          width: 24px;
+        }
+        .div-29 {
+          border-radius: 8px;
+          background-color: rgba(255, 255, 255, 1);
+          display: flex;
+          margin-top: 45px;
+          min-height: 184px;
+          flex-direction: column;
+          font-weight: 600;
+          justify-content: start;
+          padding: 15px 23px 30px;
+        }
+        @media (max-width: 991px) {
+          .div-29 {
+            margin-top: 40px;
+            padding: 0 20px;
+          }
+        }
+        .div-30 {
+          display: flex;
+          max-width: 100%;
+          width: 198px;
+          flex-direction: column;
+          justify-content: start;
+        }
+        .pages-you-like {
+          color: rgba(41, 45, 50, 1);
+          font-size: 16px;
+        }
+        .div-31 {
+          display: flex;
+          margin-top: 21px;
+          width: 100%;
+          flex-direction: column;
+          font-size: 14px;
+          color: #7f7f7f;
+          white-space: nowrap;
+          justify-content: start;
+        }
+        @media (max-width: 991px) {
+          .div-31 {
+            white-space: initial;
+          }
+        }
+        .div-32 {
+          display: flex;
+          width: 100%;
+          align-items: center;
+          gap: 40px 87px;
+          justify-content: space-between;
+        }
+        @media (max-width: 991px) {
+          .div-32 {
+            white-space: initial;
+          }
+        }
+        .div-33 {
+          align-self: stretch;
+          display: flex;
+          align-items: center;
+          gap: 12px;
+          justify-content: center;
+          margin: auto 0;
+        }
+        @media (max-width: 991px) {
+          .div-33 {
+            white-space: initial;
+          }
+        }
+        .img-11 {
+          aspect-ratio: 1;
+          object-fit: contain;
+          object-position: center;
+          width: 24px;
+          border-radius: 50%;
+          align-self: stretch;
+          margin: auto 0;
+        }
+        .nature {
+          align-self: stretch;
+          margin: auto 0;
+        }
+        .div-34 {
+          display: flex;
+          margin-top: 11px;
+          width: 100%;
+          align-items: center;
+          gap: 40px 74px;
+          justify-content: space-between;
+        }
+        @media (max-width: 991px) {
+          .div-34 {
+            white-space: initial;
+          }
+        }
+        .div-35 {
+          align-self: stretch;
+          display: flex;
+          align-items: center;
+          gap: 11px;
+          justify-content: center;
+          margin: auto 0;
+        }
+        @media (max-width: 991px) {
+          .div-35 {
+            white-space: initial;
+          }
+        }
+        .img-12 {
+          aspect-ratio: 1;
+          object-fit: contain;
+          object-position: center;
+          width: 24px;
+          border-radius: 50%;
+          align-self: stretch;
+          margin: auto 0;
+        }
+        .business {
+          align-self: stretch;
+          margin: auto 0;
+        }
+        .div-36 {
+          display: flex;
+          margin-top: 11px;
+          width: 100%;
+          align-items: center;
+          gap: 40px 79px;
+          justify-content: space-between;
+        }
+        @media (max-width: 991px) {
+          .div-36 {
+            white-space: initial;
+          }
+        }
+        .div-37 {
+          align-self: stretch;
+          display: flex;
+          align-items: center;
+          gap: 11px;
+          justify-content: center;
+          margin: auto 0;
+        }
+        @media (max-width: 991px) {
+          .div-37 {
+            white-space: initial;
+          }
+        }
+        .img-13 {
+          aspect-ratio: 1;
+          object-fit: contain;
+          object-position: center;
+          width: 24px;
+          border-radius: 50%;
+          align-self: stretch;
+          margin: auto 0;
+        }
+        .football {
+          align-self: stretch;
+          margin: auto 0;
+        }
+        .column-2 {
+          display: flex;
+          flex-direction: column;
+          line-height: normal;
+          width: 81%;
+          margin-left: 20px;
+        }
+        @media (max-width: 991px) {
+          .column-2 {
+            width: 100%;
+          }
+        }
+        .div-38 {
+          display: flex;
+          flex-grow: 1;
+          flex-direction: column;
+          justify-content: start;
+        }
+        @media (max-width: 991px) {
+          .div-38 {
+            max-width: 100%;
+            margin-top: 25px;
+          }
+        }
+        .post {
+          border-radius: 12px;
+          background-color: rgba(255, 255, 255, 1);
+          display: flex;
+          width: 90%;
+          flex-direction: column;
+          overflow: hidden;
+          justify-content: center;
+          padding: 27px 36px;
+        }
+        @media (max-width: 991px) {
+          .post {
+            max-width: 100%;
+            padding: 0 20px;
+          }
+        }
+        .post-content {
+          display: flex;
+          width: 100%;
+          flex-direction: column;
+          justify-content: start;
+        }
+        @media (max-width: 991px) {
+          .post-content {
+            max-width: 100%;
+          }
+        }
+        .header {
+          display: flex;
+          width: 100%;
+          align-items: center;
+          gap: 40px 100px;
+          color: rgba(0, 0, 0, 1);
+          justify-content: space-between;
+          flex-wrap: wrap;
+        }
+        @media (max-width: 991px) {
+          .header {
+            max-width: 100%;
+          }
+        }
+        .user-info {
+          align-self: stretch;
+          display: flex;
+          min-width: 240px;
+          align-items: center;
+          gap: 30px;
+          justify-content: center;
+          margin: auto 0;
+        }
+        .img-14 {
+          aspect-ratio: 1;
+          object-fit: contain;
+          object-position: center;
+          width: 78px;
+          border-radius: 50%;
+          align-self: stretch;
+          margin: auto 0;
+        }
+        .user-text {
+          align-self: stretch;
+          display: flex;
+          flex-direction: column;
+          justify-content: start;
+          width: 160px;
+          margin: auto 0;
+        }
+        .user-name {
+          font: 700 27px Segoe UI, sans-serif;
+        }
+        .post-date {
+          font: 300 21px Poppins, sans-serif;
+        }
+        .location-info {
+          align-self: stretch;
+          display: flex;
+          align-items: end;
+          gap: 19px;
+          white-space: nowrap;
+          justify-content: start;
+          margin: auto 0;
+          font: 400 21px Poppins, sans-serif;
+        }
+        @media (max-width: 991px) {
+          .location-info {
+            white-space: initial;
+          }
+        }
+        .img-15 {
+          aspect-ratio: 1;
+          object-fit: contain;
+          object-position: center;
+          width: 36px;
+        }
+        .images-and-caption {
+          display: flex;
+          margin-top: 22px;
+          width: 100%;
+          flex-direction: column;
+          justify-content: start;
+        }
+        @media (max-width: 991px) {
+          .images-and-caption {
+            max-width: 100%;
+          }
+        }
+        .images {
+          border-radius: 16px;
+          display: flex;
+          min-height: 560px;
+          width: 100%;
+          align-items: center;
+          gap: 15px;
+          justify-content: start;
+        }
+        @media (max-width: 991px) {
+          .images {
+            max-width: 100%;
+          }
+        }
+        .img-16 {
+          aspect-ratio: 1.8;
+          object-fit: contain;
+          object-position: center;
+          width: 1007px;
+          border-radius: 12px;
+          align-self: stretch;
+          min-width: 240px;
+          margin: auto 0;
+        }
+        .caption-and-reactions {
+          display: flex;
+          margin-top: 22px;
+          width: 100%;
+          flex-direction: column;
+          font-family: Poppins, sans-serif;
+          justify-content: start;
+        }
+        @media (max-width: 991px) {
+          .caption-and-reactions {
+            max-width: 100%;
+          }
+        }
+        .caption {
+          color: rgba(127, 127, 127, 1);
+          font-size: 18px;
+          font-weight: 500;
+        }
+        @media (max-width: 991px) {
+          .caption {
+            max-width: 100%;
+          }
+        }
+        .reactions {
+          align-self: start;
+          display: flex;
+          margin-top: 31px;
+          align-items: center;
+          gap: 40px 269px;
+          font-size: 21px;
+          font-weight: 400;
+          justify-content: start;
+          flex-wrap: wrap;
+        }
+        @media (max-width: 991px) {
+          .reactions {
+            max-width: 100%;
+          }
+        }
+        .likes-and-comments {
+          align-self: stretch;
+          display: flex;
+          min-width: 240px;
+          align-items: center;
+          gap: 40px 60px;
+          color: rgba(41, 45, 50, 1);
+          justify-content: start;
+          flex-wrap: wrap;
+          margin: auto 0;
+        }
+        @media (max-width: 991px) {
+          .likes-and-comments {
+            max-width: 100%;
+          }
+        }
+        .like-info {
+          align-self: stretch;
+          display: flex;
+          align-items: center;
+          gap: 9px;
+          justify-content: center;
+          margin: auto 0;
+        }
+        .img-17 {
+          aspect-ratio: 1;
+          object-fit: contain;
+          object-position: center;
+          width: 36px;
+          align-self: stretch;
+          margin: auto 0;
+        }
+        .like-text {
+          align-self: stretch;
+          margin: auto 0;
+        }
+        .comment-info {
+          align-self: stretch;
+          display: flex;
+          align-items: center;
+          gap: 9px;
+          justify-content: center;
+          margin: auto 0;
+        }
+        .img-18 {
+          aspect-ratio: 1;
+          object-fit: contain;
+          object-position: center;
+          width: 36px;
+          align-self: stretch;
+          margin: auto 0;
+        }
+        .comment-text {
+          align-self: stretch;
+          margin: auto 0;
+        }
+        .share-info {
+          align-self: stretch;
+          display: flex;
+          align-items: center;
+          gap: 9px;
+          white-space: nowrap;
+          justify-content: start;
+          margin: auto 0;
+        }
+        @media (max-width: 991px) {
+          .share-info {
+            white-space: initial;
+          }
+        }
+        .img-19 {
+          aspect-ratio: 1;
+          object-fit: contain;
+          object-position: center;
+          width: 36px;
+          align-self: stretch;
+          margin: auto 0;
+        }
+        .share-text {
+          align-self: stretch;
+          margin: auto 0;
+        }
+        .save-info {
+          align-self: stretch;
+          display: flex;
+          align-items: center;
+          gap: 18px;
+          color: rgba(0, 0, 0, 1);
+          white-space: nowrap;
+          justify-content: center;
+          margin: auto 0;
+        }
+        @media (max-width: 991px) {
+          .save-info {
+            white-space: initial;
+          }
+        }
+        .img-20 {
+          aspect-ratio: 1;
+          object-fit: contain;
+          object-position: center;
+          width: 36px;
+          align-self: stretch;
+          margin: auto 0;
+        }
+        .save-text {
+          align-self: stretch;
+          margin: auto 0;
+        }
+        .post-2 {
+          border-radius: 12px;
+          background-color: rgba(255, 255, 255, 1);
+          display: flex;
+          margin-top: 32px;
+          width: 90%;
+          flex-direction: column;
+          overflow: hidden;
+          justify-content: center;
+          padding: 27px 36px;
+        }
+        @media (max-width: 991px) {
+          .post-2 {
+            max-width: 100%;
+            padding: 0 20px;
+          }
+        }
+        .img-21 {
+          aspect-ratio: 1;
+          object-fit: contain;
+          object-position: center;
+          width: 78px;
+          border-radius: 50%;
+          align-self: stretch;
+          margin: auto 0;
+        }
+        .img-22 {
+          aspect-ratio: 1;
+          object-fit: contain;
+          object-position: center;
+          width: 36px;
+        }
+        .img-23 {
+          aspect-ratio: 1.8;
+          object-fit: contain;
+          object-position: center;
+          width: 1007px;
+          border-radius: 12px;
+          align-self: stretch;
+          min-width: 240px;
+          margin: auto 0;
+        }
+        .img-24 {
+          aspect-ratio: 1;
+          object-fit: contain;
+          object-position: center;
+          width: 36px;
+          align-self: stretch;
+          margin: auto 0;
+        }
+        .img-25 {
+          aspect-ratio: 1;
+          object-fit: contain;
+          object-position: center;
+          width: 36px;
+          align-self: stretch;
+          margin: auto 0;
+        }
+        .img-26 {
+          aspect-ratio: 1;
+          object-fit: contain;
+          object-position: center;
+          width: 36px;
+          align-self: stretch;
+          margin: auto 0;
+        }
+        .img-27 {
+          aspect-ratio: 1;
+          object-fit: contain;
+          object-position: center;
+          width: 36px;
+          align-self: stretch;
+          margin: auto 0;
+        }
+        @media (max-width:768px) {
+  .div {
+    width: 95%;
+    margin-top: 15px;
+   padding-left: 15px;
+  }
+  .div-2 {
+    display: flex;
+    flex-direction:row;
+    width: 50%;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+  .div-12{
+    display: none;
+  }
+  
+  .div-3 {
+  
+  }
+  .div-4 {
+    
+  }
+  .img {
+    
+  }
+  .we-share {
+   
+  }
+  .div-5 {
+    border-radius: 8px;
+    background-color: rgba(244, 244, 244, 1);
+    display: flex;
+    color: rgba(0, 0, 0, 1);
+    justify-content: center;
+    width: 100px;
+    font: 400 16px / 32px Poppins, sans-serif;
+    margin-left: -100px;
+  }
+
+  .div-6 {
+    
+  }
+ 
+  .img-2 {
+    
+  }
+  .search {
+    
+  }
+  
+  .div-7 {
+    align-self: stretch;
+    display: flex;
+   
+    align-items: center;
+    gap: 15px;
+    color: rgba(0, 0, 0, 1);
+   
+    justify-content: start;
+    margin: auto -102px;
+    font: 400 16px / 32px Segoe UI, sans-serif;
+  }
+
+}
+@media (max-width: 768px) {
+  .div-10 {
+    flex-direction: row;
+    align-items: stretch;
+  margin-left: -60px;
+  }
+  .div-29 {
+    margin-top: 40px;
+    padding: 0 20px;
+    display: none;
+}
+.column {
+  height: fit-content;
+}
+.div-22 {
+  align-self: stretch;
+  display: flex;
+  position: fixed; 
+  bottom: 5%;
+  left: 1%;
+  flex-direction: row;
+  justify-content: start;
+  margin: auto 0;
+  z-index: 10000;
+  width: 750px;
+  background-color: #f4f4f4;
+  border-radius: 15px;
+}
+.div-23{
+  background-color: #f4f4f4;
+  color: #7f7f7f;
+}
+.img-5{
+  color: #7f7f7f;
+}
+.column-5{
+  display: none;
+}
+.div-39{
+  width: 106%;
+}
+.div-28{
+    background-color: #f4f4f4;
+    color: #7f7f7f;
+}
+}
+@media (max-width:320px){
+  .div {
+   width: 110%;
+   position: relative;
+   margin-right: 15px;
+   margin-left: -35px;
+  }
+
+  .div-2 {
+    display: flex;
+    flex-direction:row;
+    width: 50%;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+  .div-5 {
+   display: none;
+  }
+  .div-7 {
+    align-self: stretch;
+    display: flex;
+
+    gap: 40px;
+    color: rgba(0, 0, 0, 1);
+    justify-content: start;
+    margin: auto -123px;
+    font: 400 16px / 32px Segoe UI, sans-serif;
+  }
+  .div-8{
+
+  }
+}
+@media (max-width:320px){
+  .div-22 {
+    align-self: stretch;
+    display: flex;
+    position: fixed;
+    bottom: 5%;
+    left: 1%;
+    flex-direction: row;
+    justify-content: start;
+    margin: auto 0;
+    z-index: 10000;
+    width: 314px;
+    background-color: #f4f4f4;
+    border-radius: 15px;
+}
+.div-23>div{
+  display: none;
+}
+.div-24>div{
+  display: none;
+}
+.div-25>div{
+  display: none;
+}
+.div-26>div{
+  display: none;
+}
+.div-27>div{
+  display: none;
+}
+  .div-38 {
+    max-width: 100%;
+  
+}
+.div-41>img{
+display: none;
+}
+.div-56{
+  display: none;
+}
+.div-60 {
+  max-width: 100%;
+}
+.div-25>div{
+  display: none;
+}
+.div-28>div{
+  display: none;
+}
+.div-63 {
+  align-self: start;
+  display: flex;
+  margin-top: 25px;
+  gap: 47px;
+  color: rgba(0, 0, 0, 1);
+  justify-content: start;
+}
+.div-62{
+  max-width: 50%;
+}
+.div-62>.whats-on-your-mind{
+  width: 50%;
+}
+.div-64>.image{
+  display: none;
+}
+.div-65>.video{
+  display: none;
+}
+.div-66>.music{
+  display: none;
+}
+.div-67>.live{
+  display: none;
+}
+.likess>span{
+  display: none;
+}
+.comments>span{
+  display: none;
+}
+.share{
+  display: none;
+}
+}
+      </style>
+  </head>
+  <body>
+    <div class="news-light">
+        <div class="div">
+          <div class="div-2">
+            <div class="div-3">
+             
+                <img src="./Logo.svg"/>
+            
+            <div class="div-5">
+              <div class="div-6">
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/750c41e414adebeda07df53564d4cc7e39c1a3a532f8828349cc54dec9465f29?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb"
+                  class="img-2"
+                />
+                <div class="search">Search</div>
+              </div>
+            </div>
+            <div class="div-7">
+              <a href="./dark3.html"><img
+                loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/c2475c303635f00438208db0da548e24be7a74358f410d24a394fe0f75ab76f6?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb"
+                class="img"
+                /></a>
+              <img
+                loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/6d85d262875b60c405910c2f05066e0994f34f0bd0a2a4d65628e449e0be9177?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb"
+                class="img"
+              />
+              <img
+                loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/f4a37490d3c57063958dc41d5519373f9e0cefe82f80fae794bef3caa2e3e72d?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb"
+                class="img"
+              />
+              <div class="div-8">
+                <img
+                  loading="lazy"
+                  srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/24125441f58a1fd31ce4ef2fd5065f7d1a482e72109b0e9a4e8feed6fe5da110?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/24125441f58a1fd31ce4ef2fd5065f7d1a482e72109b0e9a4e8feed6fe5da110?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/24125441f58a1fd31ce4ef2fd5065f7d1a482e72109b0e9a4e8feed6fe5da110?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/24125441f58a1fd31ce4ef2fd5065f7d1a482e72109b0e9a4e8feed6fe5da110?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/24125441f58a1fd31ce4ef2fd5065f7d1a482e72109b0e9a4e8feed6fe5da110?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/24125441f58a1fd31ce4ef2fd5065f7d1a482e72109b0e9a4e8feed6fe5da110?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/24125441f58a1fd31ce4ef2fd5065f7d1a482e72109b0e9a4e8feed6fe5da110?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/24125441f58a1fd31ce4ef2fd5065f7d1a482e72109b0e9a4e8feed6fe5da110?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb"
+                  class="img-3"
+                />
+                <div class="lisa-stephen">Lisa_stephen</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="div-9">
+          <div class="div-10">
+            <div class="column">
+              <div class="div-11">
+                <div class="div-12">
+                  <div class="div-13">
+                    <div class="div-14">
+                      <div class="div-15">
+                        <img
+                          loading="lazy"
+                          srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/711c1c18ee862fb9032750a8e450150132f13a0d97e2cf15d33cc3d1fee7dfa8?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/711c1c18ee862fb9032750a8e450150132f13a0d97e2cf15d33cc3d1fee7dfa8?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/711c1c18ee862fb9032750a8e450150132f13a0d97e2cf15d33cc3d1fee7dfa8?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/711c1c18ee862fb9032750a8e450150132f13a0d97e2cf15d33cc3d1fee7dfa8?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/711c1c18ee862fb9032750a8e450150132f13a0d97e2cf15d33cc3d1fee7dfa8?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/711c1c18ee862fb9032750a8e450150132f13a0d97e2cf15d33cc3d1fee7dfa8?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/711c1c18ee862fb9032750a8e450150132f13a0d97e2cf15d33cc3d1fee7dfa8?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/711c1c18ee862fb9032750a8e450150132f13a0d97e2cf15d33cc3d1fee7dfa8?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb"
+                          class="img-4"
+                        />
+                        <div class="div-16">
+                          <div class="lisa-stephen-2">Lisa_stephen</div>
+                          <div class="lisastephen">@lisastephen</div>
+                        </div>
+                      </div>
+                      <div class="div-17">
+                        <div class="div-18">
+                          <div class="798">798</div>
+                          <div class="followers">Followers</div>
+                        </div>
+                        <div class="div-19">
+                          <div class="two-nine-seven">297</div>
+                          <div class="following">Following</div>
+                        </div>
+                        <div class="div-20">
+                          <div class="42">42</div>
+                          <div class="posts">Posts</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="div-21">
+                  <div class="div-22">
+                    <div class="div-23">
+                        <a href="./index.html">
+                      <img
+                        loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/c920a90ce3ef52eb6ecc40ac3d2eadccbd5eb173f2d88594c8c8e3c0f1be6177?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb"
+                        class="img-5"
+                      />
+                    </a>
+                      <div>
+                     <a style="text-decoration: none; border: none; color: #7f7f7f;" href="./index.html"> <div>Home</div></a>
+                    </div>
+                    </div>
+                    <div class="div-24">
+                      <img
+                        loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/b02d79b7e9777fff09fd3a6f1c10f351a4ae9198868267fc329b5281e8a152b2?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb"
+                        class="img-6"
+                      />
+                      <div>Friends</div>
+                    </div>
+                    <div class="div-25">
+                      <img
+                        loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/4c19b7e965844310010515c397824a048f3e401edc6e4c7f2ef6b39249272c70?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb"
+                        class="img-7"
+                      />
+                      <div>Explore</div>
+                    </div>
+                    <div class="div-26">
+                      <img
+                        loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/e67807654724d009bc49d294a72dc75ae40c02131f82a2015ea201fe463b72a2?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb"
+                        class="img-8"
+                      />
+                      <div>Messages</div>
+                    </div>
+                    <div class="div-27">
+                      <img
+                        loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/0ba8334207d4d58acef2696eb4c974bd7c4e82f0b9c9e86c47ad2c8b22037131?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb"
+                        class="img-9"
+                      />
+                      <div>Saved</div>
+                    </div>
+                    <div class="div-28">
+                      <img
+                        loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/f5cf6ee3655e358fced0b33d218f342ca46d4dcd623ff11fdda428f20205e163?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb"
+                        class="img-10"
+                      />
+                      <div>News</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="div-29">
+                  <div class="div-30">
+                    <div class="pages-you-like">Pages you like...</div>
+                    <div class="div-31">
+                      <div class="div-32">
+                        <div class="div-33">
+                          <img
+                            loading="lazy"
+                            srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/bd9e355511eaac93d13231be2e7693054004645788909278fb22a1da48626de2?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/bd9e355511eaac93d13231be2e7693054004645788909278fb22a1da48626de2?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/bd9e355511eaac93d13231be2e7693054004645788909278fb22a1da48626de2?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/bd9e355511eaac93d13231be2e7693054004645788909278fb22a1da48626de2?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/bd9e355511eaac93d13231be2e7693054004645788909278fb22a1da48626de2?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/bd9e355511eaac93d13231be2e7693054004645788909278fb22a1da48626de2?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/bd9e355511eaac93d13231be2e7693054004645788909278fb22a1da48626de2?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/bd9e355511eaac93d13231be2e7693054004645788909278fb22a1da48626de2?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb"
+                            class="img-11"
+                          />
+                          <div class="nature">Nature</div>
+                        </div>
+                        <img
+                          loading="lazy"
+                          src="https://cdn.builder.io/api/v1/image/assets/TEMP/09fa2df4c37d77ac7a24be2a32eebe5330a49466ffb222a9a62cc690d4013461?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb"
+                          class="img"
+                        />
+                      </div>
+                      <div class="div-34">
+                        <div class="div-35">
+                          <img
+                            loading="lazy"
+                            srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/847cd59451ea61a3d6bcdca7716b8836d299ccf3d685e7d0c1890113f2cb3cc5?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/847cd59451ea61a3d6bcdca7716b8836d299ccf3d685e7d0c1890113f2cb3cc5?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/847cd59451ea61a3d6bcdca7716b8836d299ccf3d685e7d0c1890113f2cb3cc5?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/847cd59451ea61a3d6bcdca7716b8836d299ccf3d685e7d0c1890113f2cb3cc5?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/847cd59451ea61a3d6bcdca7716b8836d299ccf3d685e7d0c1890113f2cb3cc5?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/847cd59451ea61a3d6bcdca7716b8836d299ccf3d685e7d0c1890113f2cb3cc5?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/847cd59451ea61a3d6bcdca7716b8836d299ccf3d685e7d0c1890113f2cb3cc5?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/847cd59451ea61a3d6bcdca7716b8836d299ccf3d685e7d0c1890113f2cb3cc5?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb"
+                            class="img-12"
+                          />
+                          <div class="business">Business</div>
+                        </div>
+                        <img
+                          loading="lazy"
+                          src="https://cdn.builder.io/api/v1/image/assets/TEMP/09fa2df4c37d77ac7a24be2a32eebe5330a49466ffb222a9a62cc690d4013461?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb"
+                          class="img"
+                        />
+                      </div>
+                      <div class="div-36">
+                        <div class="div-37">
+                          <img
+                            loading="lazy"
+                            srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/8097f2caa667f5d3d21a18f11a8c6f98bb53bdcb2028f7b8ee6d461bd017a71b?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/8097f2caa667f5d3d21a18f11a8c6f98bb53bdcb2028f7b8ee6d461bd017a71b?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/8097f2caa667f5d3d21a18f11a8c6f98bb53bdcb2028f7b8ee6d461bd017a71b?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/8097f2caa667f5d3d21a18f11a8c6f98bb53bdcb2028f7b8ee6d461bd017a71b?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/8097f2caa667f5d3d21a18f11a8c6f98bb53bdcb2028f7b8ee6d461bd017a71b?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/8097f2caa667f5d3d21a18f11a8c6f98bb53bdcb2028f7b8ee6d461bd017a71b?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/8097f2caa667f5d3d21a18f11a8c6f98bb53bdcb2028f7b8ee6d461bd017a71b?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/8097f2caa667f5d3d21a18f11a8c6f98bb53bdcb2028f7b8ee6d461bd017a71b?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb"
+                            class="img-13"
+                          />
+                          <div class="football">Football</div>
+                        </div>
+                        <img
+                          loading="lazy"
+                          src="https://cdn.builder.io/api/v1/image/assets/TEMP/09fa2df4c37d77ac7a24be2a32eebe5330a49466ffb222a9a62cc690d4013461?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb"
+                          class="img"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column-2">
+              <div class="div-38">
+                <div class="post">
+                  <div class="post-content">
+                    <div class="header">
+                      <div class="user-info">
+                        <img
+                          loading="lazy"
+                          srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/a66bc974110e19d6b7053eff9a112295174d77581cbd524f672a9901f5d1cdd2?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/a66bc974110e19d6b7053eff9a112295174d77581cbd524f672a9901f5d1cdd2?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/a66bc974110e19d6b7053eff9a112295174d77581cbd524f672a9901f5d1cdd2?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/a66bc974110e19d6b7053eff9a112295174d77581cbd524f672a9901f5d1cdd2?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/a66bc974110e19d6b7053eff9a112295174d77581cbd524f672a9901f5d1cdd2?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/a66bc974110e19d6b7053eff9a112295174d77581cbd524f672a9901f5d1cdd2?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/a66bc974110e19d6b7053eff9a112295174d77581cbd524f672a9901f5d1cdd2?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/a66bc974110e19d6b7053eff9a112295174d77581cbd524f672a9901f5d1cdd2?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb"
+                          class="img-14"
+                        />
+                        <div class="user-text">
+                          <div class="user-name">BBC News</div>
+                          <div class="post-date">25 august 2024</div>
+                        </div>
+                      </div>
+                      <div class="location-info">
+                        <img
+                          loading="lazy"
+                          src="https://cdn.builder.io/api/v1/image/assets/TEMP/4f632da569661280881152050e581258c2a12c1ebb95bb8ee94dd9b9ec0f81f8?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb"
+                          class="img-15"
+                        />
+                        <div>India</div>
+                      </div>
+                    </div>
+                    <div class="images-and-caption">
+                      <div class="images">
+                        <img
+                          loading="lazy"
+                          srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/f22d2692b0686b150aa4245d00b80938a236eaf43e825ed746f99a6b28262046?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/f22d2692b0686b150aa4245d00b80938a236eaf43e825ed746f99a6b28262046?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/f22d2692b0686b150aa4245d00b80938a236eaf43e825ed746f99a6b28262046?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/f22d2692b0686b150aa4245d00b80938a236eaf43e825ed746f99a6b28262046?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/f22d2692b0686b150aa4245d00b80938a236eaf43e825ed746f99a6b28262046?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/f22d2692b0686b150aa4245d00b80938a236eaf43e825ed746f99a6b28262046?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/f22d2692b0686b150aa4245d00b80938a236eaf43e825ed746f99a6b28262046?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/f22d2692b0686b150aa4245d00b80938a236eaf43e825ed746f99a6b28262046?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb"
+                          class="img-16"
+                        />
+                      </div>
+                      <div class="caption-and-reactions">
+                        <div class="caption">
+                          &quot;Global markets rally as tech stocks surge, pushing
+                          major indices to new highs. Investors remain cautious amid
+                          inflation concerns and central bank policies.&quot;
+                        </div>
+                        <div class="reactions">
+                          <div class="likes-and-comments">
+                            <div class="like-info">
+                              <img
+                                loading="lazy"
+                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/208fe0a205ffe4937b1960a389291e09fbc489fe4766e5d0118a6168f3babac7?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb"
+                                class="img-17"
+                              />
+                              <div class="like-text">244 Likes</div>
+                            </div>
+                            <div class="comment-info">
+                              <img
+                                loading="lazy"
+                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/d0727119635139e3f55e1a3b21b4127df72fd0729a3773ab5a83751eaac0507d?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb"
+                                class="img-18"
+                              />
+                              <div class="comment-text">4 Comments</div>
+                            </div>
+                            <div class="share-info">
+                              <img
+                                loading="lazy"
+                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/371df566a4bef89f195ed486fd77c232718b7195cc3b6068c17502a7bf97aef9?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb"
+                                class="img-19"
+                              />
+                              <div class="share-text">Share</div>
+                            </div>
+                          </div>
+                          <div class="save-info">
+                            <img
+                              loading="lazy"
+                              src="https://cdn.builder.io/api/v1/image/assets/TEMP/f630173ab64ea500abcf75ac285d9bae4a725384d8c92b707681ddc46a576014?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb"
+                              class="img-20"
+                            />
+                            <div class="save-text">Save</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="post-2">
+                  <div class="post-content">
+                    <div class="header">
+                      <div class="user-info">
+                        <img
+                          loading="lazy"
+                          srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/45b0c0230f4aa64697d842a7a2398b76a9539c84d09e32330de4aed782fc0849?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/45b0c0230f4aa64697d842a7a2398b76a9539c84d09e32330de4aed782fc0849?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/45b0c0230f4aa64697d842a7a2398b76a9539c84d09e32330de4aed782fc0849?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/45b0c0230f4aa64697d842a7a2398b76a9539c84d09e32330de4aed782fc0849?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/45b0c0230f4aa64697d842a7a2398b76a9539c84d09e32330de4aed782fc0849?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/45b0c0230f4aa64697d842a7a2398b76a9539c84d09e32330de4aed782fc0849?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/45b0c0230f4aa64697d842a7a2398b76a9539c84d09e32330de4aed782fc0849?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/45b0c0230f4aa64697d842a7a2398b76a9539c84d09e32330de4aed782fc0849?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb"
+                          class="img-21"
+                        />
+                        <div class="user-text">
+                          <div class="user-name">Asia News</div>
+                          <div class="post-date">26 august 2024</div>
+                        </div>
+                      </div>
+                      <div class="location-info">
+                        <img
+                          loading="lazy"
+                          src="https://cdn.builder.io/api/v1/image/assets/TEMP/e3df882e0e5610b503f682dea9a84dcff6769cfec366fad27ef78cb9309628a1?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb"
+                          class="img-22"
+                        />
+                        <div>Japan</div>
+                      </div>
+                    </div>
+                    <div class="images-and-caption">
+                      <div class="images">
+                        <img
+                          loading="lazy"
+                          srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/40bb3a034a87a010567e68daa0ab79b73ad143f04d36c0170d5eafc2b1e1d7d8?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/40bb3a034a87a010567e68daa0ab79b73ad143f04d36c0170d5eafc2b1e1d7d8?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/40bb3a034a87a010567e68daa0ab79b73ad143f04d36c0170d5eafc2b1e1d7d8?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/40bb3a034a87a010567e68daa0ab79b73ad143f04d36c0170d5eafc2b1e1d7d8?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/40bb3a034a87a010567e68daa0ab79b73ad143f04d36c0170d5eafc2b1e1d7d8?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/40bb3a034a87a010567e68daa0ab79b73ad143f04d36c0170d5eafc2b1e1d7d8?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/40bb3a034a87a010567e68daa0ab79b73ad143f04d36c0170d5eafc2b1e1d7d8?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/40bb3a034a87a010567e68daa0ab79b73ad143f04d36c0170d5eafc2b1e1d7d8?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb"
+                          class="img-23"
+                        />
+                      </div>
+                      <div class="caption-and-reactions">
+                        <div class="caption">
+                          &quot;Massive forest fires spread rapidly, threatening
+                          wildlife and ecosystems. Authorities race to contain the
+                          blaze as air quality worsens in surrounding regions.&quot;
+                        </div>
+                        <div class="reactions">
+                          <div class="likes-and-comments">
+                            <div class="like-info">
+                              <img
+                                loading="lazy"
+                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/c210ab02ba162b23b8976e207f799ce813267b6c750dd5aceb7e16dab10ac29d?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb"
+                                class="img-24"
+                              />
+                              <div class="like-text">3.1k Likes</div>
+                            </div>
+                            <div class="comment-info">
+                              <img
+                                loading="lazy"
+                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/84279aaf50e8bdaa972a7f0a940c2a661f8dee8d3158e38817a0c96a4b042d16?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb"
+                                class="img-25"
+                              />
+                              <div class="comment-text">4 Comments</div>
+                            </div>
+                            <div class="share-info">
+                              <img
+                                loading="lazy"
+                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/b57f14f661e1c5d8d79812de7fc69d0112c1acbcacb543adf88b72c8f62690c1?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb"
+                                class="img-26"
+                              />
+                              <div class="share-text">Share</div>
+                            </div>
+                          </div>
+                          <div class="save-info">
+                            <img
+                              loading="lazy"
+                              src="https://cdn.builder.io/api/v1/image/assets/TEMP/544244d369fa1c091d5b9eecc677a5c3852cbd66e18cd719812b64ec16dc5423?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb"
+                              class="img-27"
+                            />
+                            <div class="save-text">Save</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>  
+  </body>
+  </html>

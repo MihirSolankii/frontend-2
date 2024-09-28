@@ -1,0 +1,141 @@
+
+    
+    
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            .messages-container { border-radius: 8px; background-color: #fff; display: flex; align-items: center; overflow: hidden; padding: 8px 13px 24px 14px; }
+            .messages-content { align-self: stretch; display: flex; min-width: 240px; width: 295px; flex-direction: column; }
+            .messages-header { display: flex; width: 100%; flex-direction: column; font-family: Poppins, sans-serif; }
+            .header-top { display: flex; width: 100%; align-items: center; justify-content: space-between; font-size: 16px; color: #000; font-weight: 600; }
+            .header-title { align-self: stretch; margin: auto 0; }
+            .header-icon { aspect-ratio: 1; object-fit: contain; width: 24px; align-self: stretch; margin: auto 0; }
+            .search-area { display: flex; margin-top: 16px; width: 100%; flex-direction: column; }
+            .search-box { border-radius: 8px; background-color: #f4f4f4; display: flex; width: 100%; overflow: hidden; font-size: 16px; color: #7f7f7f; font-weight: 400; line-height: 32px; padding: 2px 14px; }
+            .search-input { display: flex; width: 100%; align-items: center; gap: 17px; }
+            .search-icon { aspect-ratio: 1; object-fit: contain; width: 24px; border-radius: 4px; align-self: stretch; margin: auto 0; }
+            .search-placeholder { align-self: stretch; margin: auto 0; }
+            .tab-section { display: flex; margin-top: 14px; width: 100%; flex-direction: column; font-size: 14px; }
+            .tab-header { display: flex; width: 100%; align-items: center; justify-content: space-between; }
+            .tab-options { align-self: stretch; display: flex; align-items: center; gap: 19px; color: #000; }
+            .tab-primary { font-weight: 600; }
+            .tab-groups { font-weight: 400; }
+            .tab-requests { color: #5574f4; font-weight: 400; }
+            .tab-divider { object-fit: contain; width: 100%; margin-top: 10px; }
+            .message-list { display: flex; margin-top: 22px; width: 100%; flex-direction: column; }
+            .message-item { display: flex; width: 100%; align-items: center; gap: 20px; margin-bottom: 12px; }
+            .user-avatar { aspect-ratio: 1; object-fit: contain; width: 52px; border-radius: 50%; }
+            .message-content { align-self: stretch; display: flex; flex-direction: column; }
+            .sender-name { color: #292d32; font: 700 16px "Segoe UI", sans-serif; }
+            .message-summary { color: #000; font: 300 14px Poppins, sans-serif; }
+            .visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+            </style>
+    </head>
+    <body>
+        <section class="messages-container">
+            <div class="messages-content">
+                <header class="messages-header">
+                    <div class="header-top">
+                        <h2 class="header-title">Messages</h2>
+                        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/8b1da8d997f7dc0188b443ed52fe5374c2f98a643a78848bd9f73e70ebf40b14?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb" alt="" class="header-icon" />
+                    </div>
+                    <div class="search-area">
+                        <form class="search-box" role="search">
+                            <label for="message-search" class="visually-hidden">Search messages</label>
+                            <div class="search-input">
+                                <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/750c41e414adebeda07df53564d4cc7e39c1a3a532f8828349cc54dec9465f29?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb" alt="" class="search-icon" />
+                                <input type="search" id="message-search" class="search-placeholder" placeholder="Search" />
+                            </div>
+                        </form>
+                    </div>
+                    <nav class="tab-section">
+                        <div class="tab-header">
+                            <div class="tab-options">
+                                <button class="tab-primary">Primary</button>
+                                <button class="tab-groups">Groups</button>
+                            </div>
+                            <button class="tab-requests">Requests (4)</button>
+                        </div>
+                        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/b6dd59a94d219c600b9fc8e511f12c20e081f72f94a4a08ca487a0734406ba09?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb" alt="" class="tab-divider" />
+                    </nav>
+                </header>
+                <main class="message-list">
+                    <article class="message-item">
+                        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/6d999498221c0d649ff9870420d7edc01f44f31d1951896ed0229a9636b05822?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb" alt="Jessica D.'s profile picture" class="user-avatar" />
+                        <div class="message-content">
+                            <h3 class="sender-name">Jessica D.</h3>
+                            <p class="message-summary">sent you a Video</p>
+                        </div>
+                    </article>
+                    <article class="message-item">
+                        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/fb95c5a31194f57c57e193280fe0744c2a9bad6f5f7a2a255925c4d00ba1e89e?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb" alt="Kylie Styles's profile picture" class="user-avatar" />
+                        <div class="message-content">
+                            <h3 class="sender-name">Kylie Styles</h3>
+                            <p class="message-summary">sent you an image</p>
+                        </div>
+                    </article>
+                    <article class="message-item">
+                        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/ea629efdeb5079e69ca20b39e8e20b6dbcca6f4cce3dfbc959bb17ddd067f5b4?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb" alt="James Ander's profile picture" class="user-avatar" />
+                        <div class="message-content">
+                            <h3 class="sender-name">James Ander</h3>
+                            <p class="message-summary">sent you an message</p>
+                        </div>
+                    </article>
+                    <article class="message-item">
+                        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/a6f0af6ce33aaab627d46c9f450ffbd80a7cd6b6ff82354c8d8f70451cf36849?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb" alt="Ben Stokes's profile picture" class="user-avatar" />
+                        <div class="message-content">
+                            <h3 class="sender-name">Ben Stokes</h3>
+                            <p class="message-summary">sent you a video</p>
+                        </div>
+                    </article>
+                    <article class="message-item">
+                        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/43e5cb87a481a000ac972a6057275125103a652b687f8448fbd3f3cd4f5d46eb?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb" alt="Stacy Aims's profile picture" class="user-avatar" />
+                        <div class="message-content">
+                            <h3 class="sender-name">Stacy Aims</h3>
+                            <p class="message-summary">sent you a message</p>
+                        </div>
+                    </article>
+                    <article class="message-item">
+                        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/85462154dc522fba5d66e11a7a2b320c9f569f5bc156d1f11b95a8dd86e5bf66?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb" alt="Scarlett J.'s profile picture" class="user-avatar" />
+                        <div class="message-content">
+                            <h3 class="sender-name">Scarlett J.</h3>
+                            <p class="message-summary">sent you an image</p>
+                        </div>
+                    </article>
+                    <article class="message-item">
+                        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/d3d26d944798872c1fc1ef57d022871f972338bf1fc4e8cb10e5d006de3fac81?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb" alt="Tokyo A.'s profile picture" class="user-avatar" />
+                        <div class="message-content">
+                            <h3 class="sender-name">Tokyo A.</h3>
+                            <p class="message-summary">sent you a video</p>
+                        </div>
+                    </article>
+                    <article class="message-item">
+                        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/9b1102130214d1ec4851a85ed35f5ce7a62ae67c649bfeadce7ed6f1645d642f?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb" alt="Bill Gates's profile picture" class="user-avatar" />
+                        <div class="message-content">
+                            <h3 class="sender-name">Bill Gates</h3>
+                            <p class="message-summary">sent you a message</p>
+                        </div>
+                    </article>
+                    <article class="message-item">
+                        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/015b7aff35f6fb3913cd5fc95de437fcdf8571b22f1d777b864570797bf539cc?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb" alt="Kane Williams's profile picture" class="user-avatar" />
+                        <div class="message-content">
+                            <h3 class="sender-name">Kane Williams</h3>
+                            <p class="message-summary">sent you a video</p>
+                        </div>
+                    </article>
+                    <article class="message-item">
+                        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/3d4712a4ab376efbf6a9047d15285fecdf14fcd00a9c939b861a662160837806?placeholderIfAbsent=true&apiKey=a82418bb2e574da68581329fd30b3edb" alt="Brendon Villiers's profile picture" class="user-avatar" />
+                        <div class="message-content">
+                            <h3 class="sender-name">Brendon Villiers</h3>
+                            <p class="message-summary">sent you an image</p>
+                        </div>
+                    </article>
+                </main>
+            </div>
+        </section> 
+    </body>
+    </html>
